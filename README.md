@@ -14,7 +14,7 @@ They are a great alternative to the convolutional neural network and have been s
 to be effective in many applications[6][7], and provide state-of-the-art classification results 
 among predefined or unsupervised representations. They are nearly as efficient as learned 
 deep networks on relatively simple image datasets, such as digits in MNIST, textures or 
-small CIFAR images For complex datasets such as ImageNet, [7] shows that learning a single dictionary 
+small CIFAR images. For complex datasets such as ImageNet, [7] shows that learning a single dictionary 
 is sufficient to improve the performance of a predefined scattering representation beyond 
 the accuracy of AlexNet on ImageNet. A sparse scattering network reduces the 
 convolutional network learning to a single dictionary learning problem. 
@@ -132,13 +132,12 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
 ## Todo
 
-I strongly want to reimplemnt this repo https://github.com/j-zarka/SparseScatNet in C++ 
+I strongly want to reimplemnt this repo https://github.com/j-zarka/SparseScatNet in C++ to test and verify 
 
-to test and verify the accuracy in complex datasets such as ImageNet. But i am not sure 
+the accuracy in complex datasets such as ImageNet. But i am not sure can finish this work.
 
-can finish this work.
 
-## How the logistic regression model trained
+## Train 
 
 ```bash
 python3 scripts/train.py
@@ -203,8 +202,13 @@ opposed to thresholding non-linearities.
 [10] https://github.com/drbh/wst.cpp
 
 [11] [Stéphane Mallat: "Scattering Invariant Deep Networks for Classification, Pt. 1 (video)"](https://www.youtube.com/watch?v=4eyUReyIPXg)
+
 [12] [A ConvNet that works well with 20 samples: Wavelet Scattering (article)](https://towardsdatascience.com/-a-convnet-that-works-on-like-20-samples-scatter-wavelets-b2e858f8a385)
+
 [13] [Wavelet Scattering (matlab docs)](https://www.mathworks.com/help/wavelet/ug/wavelet-scattering.html)
+
 [14] [A better way to define and describe Morlet wavelets for time-frequency analysis (paper)](https://www.biorxiv.org/content/biorxiv/early/2018/08/21/397182.full.pdf)
+
 [15] [Kymatio: Wavelet scattering in Python (site)](https://www.kymat.io/)
+
 [16] [Kymatio: Scattering Transforms in Python (paper)](https://jmlr.org/papers/volume21/19-047/19-047.pdf)
