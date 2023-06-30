@@ -38,7 +38,7 @@ sudo apt-get install libarmadillo-dev
 
 ## Build & Usage
 
-cd wst.cpp
+cd wstcpp_fast
 
 mkdir build && cd build
 
