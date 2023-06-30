@@ -1,4 +1,5 @@
 ## About
+
 This project implement a faster version of repo[10] in C++, with employing a faster fft, 
 gemm and openmp parallel programming to reduce the running time to ~1/3 of original.
 
@@ -6,7 +7,6 @@ Rencently, much of the recent AI excitement is around LLM's and the transformer
 [1][2][3]. There are many other promising AI architectures that are worth exploring. 
 I'm particularly interested in and highly recommend the wavelet scattering transform
 [4][5]and think it can be used to build a simple and interpretable AI model.
-
 
 Wavelet scattering transforms are a type of convolutional neural network that are invariant 
 to translation, stable to deformations, and provide a multiscale representation of the input. 
@@ -47,6 +47,7 @@ cmake ..
 make -j4 
 
 ```bash
+
 ./test_wst ../data/t10k-images-idx3-ubyte  ../data/model.txt -1
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
@@ -89,6 +90,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 9: 0.96 << 🙂
 
 ./test_wst ../data/t10k-images-idx3-ubyte  ../data/model.txt -1
+
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
