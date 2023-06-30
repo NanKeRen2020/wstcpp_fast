@@ -1,5 +1,4 @@
 ## About
-==============
 This project implement a faster version of repo[10] in C++, with employing a faster fft, 
 gemm and openmp parallel programming to reduce the running time to ~1/3 of original.
 
@@ -24,8 +23,7 @@ It also offers a simpler mathematical framework to analyze optimization issues.
  
 
 
-Environments
-=============
+## Environments
 
 Ubuntu1604  OpenCV3.4.x 
 
@@ -35,8 +33,7 @@ sudo apt-get install libboost-dev
 sudo apt-get install libarmadillo-dev
 
 
-Build & Usage
-==============
+## Build & Usage
 
 cd wst.cpp
 mkdir build && cd build
@@ -124,9 +121,9 @@ make -j4
 # 7: 1.00 << 🙂
 # 8: 0.00
 # 9: 0.00
-```
 
-### Todo
+
+## Todo
 
 I strongly want to reimplemnt this repo https://github.com/j-zarka/SparseScatNet in C++ 
 
