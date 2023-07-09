@@ -30,8 +30,9 @@ int main(int argc, char* argv[])
         specify the filter bank parameters
     */
     int M, N, J, L;
-    M = N = 36;
     J = 2;
+    M = N = compute_padding(28, J);
+    
     L = 8;
 
     filterBank filter_data = filter_bank(M, N, J, L);

@@ -133,3 +133,9 @@ vec1D softmax(vec1D x);
 
 // Prediction function
 vec1D predict(const vec1D &x, const vec2D &coef, const vec1D &intercept);
+
+inline int compute_padding(int size, int scale)
+{
+    int n = std::pow(2, scale);
+    return ((size + n) / n + 1)*n;
+}

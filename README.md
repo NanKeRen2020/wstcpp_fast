@@ -3,8 +3,8 @@
 This project implement a faster version of repo[10] in C++, with employing a faster fft, 
 gemm and openmp parallel programming to reduce the running time to ~1/3 of original.
 
-Rencently, much of the recent AI excitement is around LLM's and the transformer
-[1][2][3]. There are many other promising AI architectures that are worth exploring. 
+Rencently, much of the AI excitement is around LLM's and the transformer[1][2][3]. 
+There are many other promising AI architectures that are worth exploring. 
 I'm particularly interested in and highly recommend the wavelet scattering transform
 [4][5]and think it can be used to build a simple and interpretable AI model.
 
@@ -175,7 +175,7 @@ opposed to thresholding non-linearities.
 
 ## References
 
-[1] Vaswani, Ashish, et al. "Attention is all you need."Advances in Neural Information Processing Systems. 2017.
+[1] Vaswani, Ashish, et al. Attention is all you need. Advances in Neural Information Processing Systems. 2017.
 
 [2] Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, 
     Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, Jakob Uszkoreit, and Neil Houlsby. 
