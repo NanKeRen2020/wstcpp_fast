@@ -11,7 +11,7 @@ I'm particularly interested in and highly recommend the wavelet scattering trans
 Wavelet scattering transforms are a type of convolutional neural network that are invariant 
 to translation, stable to deformations, and provide a multiscale representation of the input. 
 They are a great alternative to the convolutional neural network and have been shown 
-to be effective in many applications[6][7], and provide state-of-the-art classification results 
+to be effective in many applications[6][7][10], and provide state-of-the-art classification results 
 among predefined or unsupervised representations. They are nearly as efficient as learned 
 deep networks on relatively simple image datasets, such as digits in MNIST, textures or 
 small CIFAR images. For complex datasets such as ImageNet, [7] shows that learning a single dictionary 
@@ -201,16 +201,20 @@ opposed to thresholding non-linearities.
 
 [9] S. Mallat. Understanding deep convolutional networks. Phil. Trans. R.Soc. A, 374(2065):20150203, 2016.
  
-[10] https://github.com/drbh/wst.cpp
+[10] E. Oyallon, S. Zagoruyko, G. Huang, N. Komodakis, S. Lacoste-Julien, M. Blaschko, and
+     E. Belilovsky. Scattering networks for hybrid representation learning. IEEE Transactions on
+    Pattern Analysis and Machine Intelligence, 41(9):2208–2221, Sep. 2019.
 
-[11] [Stéphane Mallat: "Scattering Invariant Deep Networks for Classification, Pt. 1 (video)"](https://www.youtube.com/watch?v=4eyUReyIPXg)
+[11] https://github.com/drbh/wst.cpp
 
-[12] [A ConvNet that works well with 20 samples: Wavelet Scattering (article)](https://towardsdatascience.com/-a-convnet-that-works-on-like-20-samples-scatter-wavelets-b2e858f8a385)
+[12] [Stéphane Mallat: "Scattering Invariant Deep Networks for Classification, Pt. 1 (video)"](https://www.youtube.com/watch?v=4eyUReyIPXg)
 
-[13] [Wavelet Scattering (matlab docs)](https://www.mathworks.com/help/wavelet/ug/wavelet-scattering.html)
+[13] [A ConvNet that works well with 20 samples: Wavelet Scattering (article)](https://towardsdatascience.com/-a-convnet-that-works-on-like-20-samples-scatter-wavelets-b2e858f8a385)
 
-[14] [A better way to define and describe Morlet wavelets for time-frequency analysis (paper)](https://www.biorxiv.org/content/biorxiv/early/2018/08/21/397182.full.pdf)
+[14] [Wavelet Scattering (matlab docs)](https://www.mathworks.com/help/wavelet/ug/wavelet-scattering.html)
 
-[15] [Kymatio: Wavelet scattering in Python (site)](https://www.kymat.io/)
+[15] [A better way to define and describe Morlet wavelets for time-frequency analysis (paper)](https://www.biorxiv.org/content/biorxiv/early/2018/08/21/397182.full.pdf)
 
-[16] [Kymatio: Scattering Transforms in Python (paper)](https://jmlr.org/papers/volume21/19-047/19-047.pdf)
+[16] [Kymatio: Wavelet scattering in Python (site)](https://www.kymat.io/)
+
+[17] [Kymatio: Scattering Transforms in Python (paper)](https://jmlr.org/papers/volume21/19-047/19-047.pdf)
